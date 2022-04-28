@@ -20,7 +20,8 @@ rollbar.log('Traceability lab is connected')
 
 const port = process.env.PORT || 4005
 
+app.use(rollbar.errorHandler())
+
 app.listen(port, ()=>{
     console.log(`Listening on port: ${port}`)
 })
-
