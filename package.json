@@ -1,5 +1,26 @@
 {
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.0"
-  }
+  },
+  "name": "traceability",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jBoothy/dev-traceability.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jBoothy/dev-traceability/issues"
+  },
+  "homepage": "https://github.com/jBoothy/dev-traceability#readme",
+  "description": ""
 }
